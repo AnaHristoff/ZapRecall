@@ -77,3 +77,163 @@
     margin: 0px;
     margin-right: 10px;
 }
+
+.showing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0% 10% 0%;
+}
+
+.flashcard-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 392px;
+    height: 575px;
+
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    border: 3px solid #FFFFFF;
+
+    padding: 0px 10px 0px 10px;
+}
+
+.flashcard-front img {
+    width: 39px;
+    height: 35px;
+}
+
+.question-number {
+    text-align: right;
+    margin-right: 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.question {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.arrow {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.flashcard-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 392px;
+    height: 575px;
+
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+
+    padding: 0px 10px 0px 10px;
+}
+
+.flashcard-back img {
+    width: 39px;
+    height: 35px;
+}
+
+.header-Flashcard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header-question {
+    margin-left: 50px;
+}
+
+.answer {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.buttons-answer {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 30px 15px 30px;
+    gap: 15px;
+}
+
+.button {
+    width: 75px;
+    height: 48px;
+
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.black {
+    border: 3px solid #000000;
+}
+
+.red {
+    border: 3px solid #F64848;
+}
+
+.green {
+    border: 3px solid #62DB38;
+}
+
+.yellow {
+    border: 3px solid #FFEF61;
+}
+
+.last-page {
+    height: 500px;
+}
+
+.lastPage-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lastPage-result .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.lastPage-result .title img{
+    width: 26px;
+    height: 28px;
+    
+}

@@ -2,7 +2,7 @@ import Logo from './Logo';
 import play from '../assets/img/play.png';
 import '../assets/css/style.css';
 
-export default function InitialPage({ initialPage, setInitialPage, backgroundPage, setBackgroundPage, logoClass, setLogoClass }) {
+export default function InitialPage({ initialPage, setInitialPage, setBackgroundPage, logoClass, setLogoClass }) {
     
 
     function start(){
